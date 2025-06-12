@@ -21,6 +21,10 @@ span {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .title {
   font-weight: bolder;
 }
@@ -71,6 +75,14 @@ span {
   background-color: green;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .front-image {
   display: block;
 }
@@ -81,10 +93,13 @@ span {
 
 .card:hover .front-image {
   display: none;
+  cursor: pointer;
 }
 
 .card:hover .back-image {
   display: block;
+  cursor: pointer;
+
 }
 
 ul {
@@ -121,6 +136,11 @@ header .container {
   bottom: 60px;
   left: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
 }
 
 .favourite {
